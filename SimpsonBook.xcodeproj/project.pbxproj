@@ -13,6 +13,8 @@
 		1877792625BC972B00C81EE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1877792425BC972B00C81EE0 /* Main.storyboard */; };
 		1877792825BC972D00C81EE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1877792725BC972D00C81EE0 /* Assets.xcassets */; };
 		1877792B25BC972D00C81EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1877792925BC972D00C81EE0 /* LaunchScreen.storyboard */; };
+		1877793425BC9D1000C81EE0 /* detailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1877793325BC9D1000C81EE0 /* detailsVC.swift */; };
+		1877793825BCACE800C81EE0 /* Simpson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1877793725BCACE800C81EE0 /* Simpson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1877792725BC972D00C81EE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1877792A25BC972D00C81EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1877792C25BC972D00C81EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1877793325BC9D1000C81EE0 /* detailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsVC.swift; sourceTree = "<group>"; };
+		1877793725BCACE800C81EE0 /* Simpson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				1877791E25BC972B00C81EE0 /* AppDelegate.swift */,
 				1877792025BC972B00C81EE0 /* SceneDelegate.swift */,
 				1877792225BC972B00C81EE0 /* ViewController.swift */,
+				1877793325BC9D1000C81EE0 /* detailsVC.swift */,
 				1877792425BC972B00C81EE0 /* Main.storyboard */,
 				1877792725BC972D00C81EE0 /* Assets.xcassets */,
 				1877792925BC972D00C81EE0 /* LaunchScreen.storyboard */,
 				1877792C25BC972D00C81EE0 /* Info.plist */,
+				1877793725BCACE800C81EE0 /* Simpson.swift */,
 			);
 			path = SimpsonBook;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1877792325BC972B00C81EE0 /* ViewController.swift in Sources */,
+				1877793425BC9D1000C81EE0 /* detailsVC.swift in Sources */,
 				1877791F25BC972B00C81EE0 /* AppDelegate.swift in Sources */,
 				1877792125BC972B00C81EE0 /* SceneDelegate.swift in Sources */,
+				1877793825BCACE800C81EE0 /* Simpson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
